@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         sleepcycle = 1;
+        canTeleport = true;
     }
 
     

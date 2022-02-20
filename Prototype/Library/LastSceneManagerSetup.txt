@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AllSkyFree/Cold Night/Cold Night.unity
+- path: Assets/Scenes/Test level.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
