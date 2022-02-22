@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 3137588685319041983}
   - component: {fileID: 3137588685319041952}
   - component: {fileID: 7568982766279071432}
+  - component: {fileID: 8336307584162756427}
   m_Layer: 0
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,8 +118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 3137588685319041980}
+  character: {fileID: 0}
   speed: 15
-  canTeleport: 1
   gravity: -18
 --- !u!136 &3137588685319041952
 CapsuleCollider:
@@ -146,10 +147,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 929b84aa727a2d44d913069b22930e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UseText: {fileID: 0}
   Camera: {fileID: 3137588686197245286}
   UseLayers:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &8336307584162756427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3137588685319041982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b52dc9c109e117409d9330ad9d47629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 3137588685319041980}
+  player: {fileID: 3137588685319041982}
 --- !u!1 &3137588686197245283
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMovement : MonoBehaviour
 {
     // reference to our player
     public CharacterController controller;
-
+    public GameObject character;
     public float speed = 10f;
+    private bool PlayMode = false;
 
-    public static int sleepcycle = 1;
-    public bool canTeleport = true;
+    public AudioSource PlayerSource;
+    public AudioClip StepSound;
 
 
     public float gravity = -18f;
@@ -19,8 +21,9 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-        sleepcycle = 1;
-        canTeleport = true;
+
+        PlayerSource.clip = StepSound;
+        
     }
 
     
@@ -35,27 +38,27 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(move * speed * Time.deltaTime);
 
 
-        if (sleepcycle >= 2 && canTeleport == true)
+
+        if (Input.GetButton("Vertical") || Input.GetButton("Horizontal"))
         {
-            Teleport();
+            if (!PlayerSource.isPlaying)
+            {
+               PlayerSource.Play();
+            }
         }
+        else
+        {
+            // Always stop the audio if the player is not inputting movement.
+            PlayerSource.Stop();
+        }
+
 
         //Gravity 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
     }
 
-    public static void PlusOneSleepCycle()
-    {
-        sleepcycle++;
-        Debug.Log(sleepcycle);
-    }
-
-    public void Teleport()
-    {
-        controller.gameObject.transform.position = new Vector3(0f, 1.35f, 0);
-        canTeleport = false;
-        sleepcycle = 1;
-    }
+   
+    
     
 }

@@ -6,6 +6,8 @@ public class LookAtPlayer : MonoBehaviour
 {
     public static bool isActive = false;
     public Transform target;
+    public GameObject Character;
+    
     void Start()
     {
         
@@ -27,20 +29,12 @@ public class LookAtPlayer : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         transform.position = Vector3.Lerp(transform.position, target.position, 0.1f);
-        yield return new WaitForSeconds(1f);
+        FindObjectOfType<AudioManager>().Stop("FirstSong");
+        FindObjectOfType<AudioManager>().Play("SecondSong");
+        yield return new WaitForSeconds(0.5f);
+        Teleport.canSpawn = false;
         Destroy(gameObject, 1f);
     }
 
-    private void OnTriggerEnter(Collider col)
-    {
-        if (col.name == "Character")
-        {
-
-
-            PlayerMovement.PlusOneSleepCycle();
-           
-
-
-        }
-    }
+    
 }
