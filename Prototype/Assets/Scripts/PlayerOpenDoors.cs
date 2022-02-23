@@ -13,7 +13,7 @@ public class PlayerOpenDoors : MonoBehaviour
     public Transform Camera;
 
     //Distance ray between door and player
-    private float MaxUseDistance = 5f;
+    private float MaxUseDistance = 3f;
 
     // The layer to open doors
     [SerializeField]
