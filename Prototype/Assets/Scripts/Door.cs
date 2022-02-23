@@ -22,6 +22,9 @@ public class Door : MonoBehaviour
    [SerializeField]
     public bool IsUnlocked;
 
+    [SerializeField]
+    private GameObject player;
+
     private void Awake()
     {
         StartRotation = transform.rotation.eulerAngles;
@@ -30,6 +33,7 @@ public class Door : MonoBehaviour
 
     public void Open(Vector3 PlayerPosition)
     {
+        PlayerPosition = player.transform.position;
         if (!isOpen)
         {
             if (AnimationCoroutine != null)

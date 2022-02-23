@@ -256,6 +256,8 @@ MonoBehaviour:
   isOpen: 0
   isRotatingDoor: 1
   speed: 1
+  IsUnlocked: 0
+  player: {fileID: 3137588685319041982, guid: 4a7598d601f4496468d0c90fd708450d, type: 3}
 --- !u!65 &2603600965964888775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -267,8 +269,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3106401, y: 1.9332992, z: 0.117826454}
-  m_Center: {x: -0.5354124, y: 0.9924046, z: -0.0107057225}
+  m_Size: {x: 1.0609431, y: 1.7165195, z: 0.117826454}
+  m_Center: {x: -0.50641567, y: 0.984799, z: -0.0107057225}
 --- !u!1001 &8998008271868422377
 PrefabInstance:
   m_ObjectHideFlags: 0
