@@ -7,10 +7,12 @@ public class LookAtPlayer : MonoBehaviour
     public static bool isActive = false;
     public Transform target;
     public GameObject Character;
-    
+    public Camera cam;
+
+    private static int iteration = 0;
     void Start()
     {
-        
+        iteration = 0;
     }
 
     void Update()
@@ -20,6 +22,12 @@ public class LookAtPlayer : MonoBehaviour
         {
             transform.LookAt(target);
             StartCoroutine(RushOnPlayer());
+            if (iteration == 0)
+            {
+                PlayScare();
+                iteration++;
+            }
+            
         }
         
        
@@ -27,13 +35,26 @@ public class LookAtPlayer : MonoBehaviour
 
     IEnumerator RushOnPlayer()
     {
-        yield return new WaitForSeconds(2f);
-        transform.position = Vector3.Lerp(transform.position, target.position, 0.1f);
+
+
+        
+        
+
+        transform.position = Vector3.Lerp(transform.position, target.position, 0.5f);
+      
         FindObjectOfType<AudioManager>().Stop("FirstSong");
         FindObjectOfType<AudioManager>().Play("SecondSong");
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
+       
         Teleport.canSpawn = false;
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 0.5f);
+        yield break;
+    }
+
+    public void PlayScare()
+    {
+        FindObjectOfType<AudioManager>().Play("Damaged");
+        return;
     }
 
     
