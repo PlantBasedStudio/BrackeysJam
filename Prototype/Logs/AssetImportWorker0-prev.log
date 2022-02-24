@@ -15,11 +15,11 @@ C:/Users/helmu/HelSoloCompu/GitHub/Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56917
+57198
 Successfully changed project path to: C:/Users/helmu/HelSoloCompu/GitHub/Prototype
 C:/Users/helmu/HelSoloCompu/GitHub/Prototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001584 seconds.
+Registered in 0.002764 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.526 seconds
+- Completed reload, in  1.565 seconds
 Domain Reload Profiling:
-	ReloadAssembly (526ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (1566ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (1227ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (423ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (153ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (477ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003025 seconds.
+Registered in 0.008685 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  2.442 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (2443ms)
+		BeginReloadAssembly (305ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (757ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1988ms)
+			LoadAssemblies (240ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (302ms)
+			SetupTypeCache (683ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (652ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (437ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 107.8 MB.
 System memory in use after: 107.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2464.
-Total: 3.717200 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.077100 ms MarkObjects: 3.355300 ms  DeleteObjects: 0.090400 ms)
+Total: 4.505000 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.090900 ms MarkObjects: 4.013700 ms  DeleteObjects: 0.171500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,225 +131,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Model
-  artifactKey: Guid(eb64815213874f147b21a9e2e5527369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model using Guid(eb64815213874f147b21a9e2e5527369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6b208ad2369fb351c731d0f9523337') in 0.005286 seconds 
-  Import took 0.008178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.573188 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(7c8d2695c461e5b45aee67f14aad5474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(7c8d2695c461e5b45aee67f14aad5474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82bdcd8e6a0584bc5f36e72ac7dad64') in 0.002631 seconds 
-  Import took 0.008186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.449883 seconds.
-  path: Assets/Prefab/Import
-  artifactKey: Guid(8e8209740e0415549b2ecbe0cd20b0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Import using Guid(8e8209740e0415549b2ecbe0cd20b0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f9bc82974a3db4c8f9e664689854f4') in 0.010499 seconds 
-  Import took 0.014804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.192072 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(77cd9cde727c8c745a2d0ae512d2b21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(77cd9cde727c8c745a2d0ae512d2b21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef557fcf88f3f07e41b5a9ede3da5696') in 0.004014 seconds 
-  Import took 0.009319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.785420 seconds.
-  path: Assets/Sprites/Bloodsplatter
-  artifactKey: Guid(0d9793ee8730f3048954f140c879cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter using Guid(0d9793ee8730f3048954f140c879cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b737e7bb564a2daaacc56cb5e3f5a0b3') in 0.002950 seconds 
-  Import took 0.010724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.972459 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (2).png
-  artifactKey: Guid(b71da99ed2998774d8158689512573bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (2).png using Guid(b71da99ed2998774d8158689512573bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bf88306fb3e1192f2eb55bb95be0d2') in 0.085976 seconds 
-  Import took 0.090993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.625091 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (1).png
-  artifactKey: Guid(72a0f728bfeed60428ab53fe98561e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (1).png using Guid(72a0f728bfeed60428ab53fe98561e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9312b8ad796e2bd6f38952a830021e') in 0.013343 seconds 
-  Import took 0.016682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.301388 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f20369757a0a49a498d75a0f7d51995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f20369757a0a49a498d75a0f7d51995d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553cc7aab4706ceb285ddef46a473f0d') in 0.006328 seconds 
-  Import took 0.011844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.478493 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(a1cf13817b209624d8d3e46c9bb4fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(a1cf13817b209624d8d3e46c9bb4fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0439d6c14234bacdc35ce3aea327303') in 0.007218 seconds 
-  Import took 0.012625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.946243 seconds.
   path: Assets/Scenes/Test level.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfd890cfb463506981d76d1a94088db') in 0.011328 seconds 
-  Import took 0.016241 seconds .
+Start importing Assets/Scenes/Test level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56c17a14d21008c97b7724cf608f9b6') in 0.019666 seconds 
+  Import took 0.024105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.262140 seconds.
-  path: Assets/Scenes/Test level_Profiles
-  artifactKey: Guid(f79fea8dab5533946a48e61576982559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test level_Profiles using Guid(f79fea8dab5533946a48e61576982559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8ff1fcca0feb560194b9a8f601eae9') in 0.004651 seconds 
-  Import took 0.013404 seconds .
+  Time since last request: 133.435252 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6afb383555531ff8ca7881ffdc3c119') in 0.004992 seconds 
+  Import took 0.017293 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 300.743174 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (1).png
-  artifactKey: Guid(72a0f728bfeed60428ab53fe98561e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (1).png using Guid(72a0f728bfeed60428ab53fe98561e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e840b18066f00a4fdbf4e4d307947bfe') in 0.086791 seconds 
-  Import took 0.093975 seconds .
+  Time since last request: 422.409149 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296dc18ac1470b03b88b48548fb2af21') in 0.007403 seconds 
+  Import took 0.014119 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.698584 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (2).png
-  artifactKey: Guid(b71da99ed2998774d8158689512573bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (2).png using Guid(b71da99ed2998774d8158689512573bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff44d1112133acb2be544cd6aafa9c99') in 0.015159 seconds 
-  Import took 0.022222 seconds .
+  Time since last request: 16.496848 seconds.
+  path: Assets/Scenes/Level1 1.unity
+  artifactKey: Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1 1.unity using Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0adb7f7e745ad724a288e9f118645ea') in 0.004744 seconds 
+  Import took 0.010797 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001232 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (3).png
-  artifactKey: Guid(f2eb3aa258b566b439a97a1bdce3c749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (3).png using Guid(f2eb3aa258b566b439a97a1bdce3c749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f718bd307b251e1e31030047653b27') in 0.035916 seconds 
-  Import took 0.052471 seconds .
+  Time since last request: 6.852395 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe112c3645718772b63a0663bc836293') in 0.006449 seconds 
+  Import took 0.015185 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000839 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(17).png
-  artifactKey: Guid(af114226a420497429e7c35945740de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(17).png using Guid(af114226a420497429e7c35945740de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27116347cfe7132b850a9780476fd2d2') in 0.032708 seconds 
-  Import took 0.038631 seconds .
+  Time since last request: 62.957377 seconds.
+  path: Assets/Scenes/Level1 1.unity
+  artifactKey: Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1 1.unity using Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39388caf3ed3a859b477ec19a2e27e5') in 0.004368 seconds 
+  Import took 0.014432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000807 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (6).png
-  artifactKey: Guid(1ac25e625ca3fe14db337d1bc919c821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (6).png using Guid(1ac25e625ca3fe14db337d1bc919c821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93aef7e10a9b9ebf38edc5a1568746bd') in 0.036923 seconds 
-  Import took 0.042563 seconds .
+  Time since last request: 9.526640 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95583b93f44574166979fe3f944e35f5') in 0.005388 seconds 
+  Import took 0.011710 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(12).png
-  artifactKey: Guid(bd5fd517c3be3144b8e35bd55992fe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(12).png using Guid(bd5fd517c3be3144b8e35bd55992fe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8988c643ed0b5fe8e2458245cb03b2') in 0.037839 seconds 
-  Import took 0.045420 seconds .
+  Time since last request: 11.907737 seconds.
+  path: Assets/Scenes/Level1 1.unity
+  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1 1.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a91acf9deb81af70fe2dd555cd01df') in 0.005436 seconds 
+  Import took 0.012835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (4).png
-  artifactKey: Guid(e29b3a2d005d2ba41b1516b25c57503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (4).png using Guid(e29b3a2d005d2ba41b1516b25c57503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386efe0c614f9b3b62dfcc0148884b0c') in 0.013585 seconds 
-  Import took 0.018878 seconds .
+  Time since last request: 19.916726 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa31a0555c863a79cb12dc7f39d2651') in 0.009452 seconds 
+  Import took 0.020939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(16).png
-  artifactKey: Guid(d62d1d35a5279524f8b356451a6372eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(16).png using Guid(d62d1d35a5279524f8b356451a6372eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93043ea0e3620dcf0aee545c5e4664ba') in 0.025206 seconds 
-  Import took 0.028887 seconds .
+  Time since last request: 118.578090 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6803c8b2fa468ea7e8b30b964726b86') in 0.004644 seconds 
+  Import took 0.010560 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (8).png
-  artifactKey: Guid(9dec0053a0790964bb3ee1cb6e1e6017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (8).png using Guid(9dec0053a0790964bb3ee1cb6e1e6017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d0950bfaa8d301a55e6109d5f288b1') in 0.035348 seconds 
-  Import took 0.039362 seconds .
+  Time since last request: 20.236527 seconds.
+  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
+  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da95a712ccc5c1170c1c105295245ef') in 0.005477 seconds 
+  Import took 0.012957 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(11).png
-  artifactKey: Guid(4b9888e4fcde5bc47a9ded74a300360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(11).png using Guid(4b9888e4fcde5bc47a9ded74a300360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ee8940ab876b77ae7cd7242c2b2d1b') in 0.040869 seconds 
-  Import took 0.047250 seconds .
+  Time since last request: 29.828281 seconds.
+  path: Assets/Scenes/Level1 1.unity
+  artifactKey: Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1 1.unity using Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa940208f2be3776e63f104d2a30a93') in 0.003864 seconds 
+  Import took 0.010260 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000791 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (10).png
-  artifactKey: Guid(80f0d7b77ce58b740a14554a39b70b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (10).png using Guid(80f0d7b77ce58b740a14554a39b70b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce8f868f11e10d27d3d5399da10b008') in 0.038897 seconds 
-  Import took 0.044070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (7).png
-  artifactKey: Guid(3b99fcb222f43724ba702782d2a7d7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (7).png using Guid(3b99fcb222f43724ba702782d2a7d7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a489c9b8114656ceaefc99463258a53') in 0.035106 seconds 
-  Import took 0.039108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (5).png
-  artifactKey: Guid(e6e674d146b87a844a03e579b3032110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (5).png using Guid(e6e674d146b87a844a03e579b3032110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ab934546f597fc63acbf0fb51ba060') in 0.038384 seconds 
-  Import took 0.044943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000698 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(15).png
-  artifactKey: Guid(370d88938920f9444a4488835f8a0b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(15).png using Guid(370d88938920f9444a4488835f8a0b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2043e055241c30173254cd0f068e4cb4') in 0.039864 seconds 
-  Import took 0.045722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/Bloodsplatter/blood-splatter (9).png
-  artifactKey: Guid(14625e3d9933f89448c8c83ed7b85ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/blood-splatter (9).png using Guid(14625e3d9933f89448c8c83ed7b85ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ea4ab6d4bb632bf45dd8f2187dab6d') in 0.031421 seconds 
-  Import took 0.035082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(14).png
-  artifactKey: Guid(039050ec33bdddd44a4de0da0cc1f655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(14).png using Guid(039050ec33bdddd44a4de0da0cc1f655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37640977af4f4e7a666cb721a48c16fc') in 0.061885 seconds 
-  Import took 0.066187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sprites/Bloodsplatter/Blood-splatter(13).png
-  artifactKey: Guid(a082ea644f7dfa84fbe19b83c6d818a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bloodsplatter/Blood-splatter(13).png using Guid(a082ea644f7dfa84fbe19b83c6d818a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed1f36c451e52e10d586272be96b3d4') in 0.049366 seconds 
-  Import took 0.054241 seconds .
+  Time since last request: 4.290424 seconds.
+  path: Assets/Scenes/Level1 copy.unity
+  artifactKey: Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1 copy.unity using Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a73d3a1d6071aa1804f67dca5427bb') in 0.006300 seconds 
+  Import took 0.012804 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
