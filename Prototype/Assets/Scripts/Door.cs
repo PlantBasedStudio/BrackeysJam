@@ -22,18 +22,18 @@ public class Door : MonoBehaviour
    [SerializeField]
     public bool IsUnlocked;
 
-    [SerializeField]
     private GameObject player;
 
     private void Awake()
     {
         StartRotation = transform.rotation.eulerAngles;
         Forward = transform.right;
+        player = FindObjectOfType<PlayerOpenDoors>().gameObject;
     }
 
-    public void Open(Vector3 PlayerPosition)
+    public void Open()
     {
-        PlayerPosition = player.transform.position;
+        Vector3 playerPosition = player.transform.position;
         if (!isOpen)
         {
             if (AnimationCoroutine != null)
@@ -43,7 +43,7 @@ public class Door : MonoBehaviour
             
             if (isRotatingDoor)
             {
-                float dot = Vector3.Dot(Forward, (PlayerPosition - transform.position).normalized);
+                float dot = Vector3.Dot(Forward, (playerPosition - transform.position).normalized);
                 Debug.Log($"Dot: { dot.ToString("N3")}");
                 AnimationCoroutine = StartCoroutine(DoRotationOpen(dot));
             }
@@ -59,12 +59,12 @@ public class Door : MonoBehaviour
         if(ForwardAmount >= forwardDirection)
         {
             // Open to the player
-            endRotation = Quaternion.Euler(new Vector3(0, startRotation.y - RotationAmount, 0));
+            endRotation = Quaternion.Euler(new Vector3(0, startRotation.eulerAngles.y - RotationAmount, 0));
         }
         else
         {
             // Open AWAY from the player
-            endRotation = Quaternion.Euler(new Vector3(0, startRotation.y + RotationAmount, 0));
+            endRotation = Quaternion.Euler(new Vector3(0, startRotation.eulerAngles.y + RotationAmount, 0));
         }
         isOpen = true;
 

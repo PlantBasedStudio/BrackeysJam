@@ -35,7 +35,7 @@ public class PlayerOpenDoors : MonoBehaviour
                 }
                 else if (!door.isOpen && door.IsUnlocked == true)
                 {
-                    door.Open(transform.position);
+                    door.Open();
                     FindObjectOfType<AudioManager>().Play("Open");
                 }
                 else if (door.isOpen && door.IsUnlocked == false)
