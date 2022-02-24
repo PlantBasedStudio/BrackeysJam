@@ -15,11 +15,11 @@ C:/Users/helmu/HelSoloCompu/GitHub/Prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57198
+57021
 Successfully changed project path to: C:/Users/helmu/HelSoloCompu/GitHub/Prototype
 C:/Users/helmu/HelSoloCompu/GitHub/Prototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002764 seconds.
+Registered in 0.001916 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.565 seconds
+- Completed reload, in  0.561 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1566ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (561ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1227ms)
-			LoadAssemblies (115ms)
+		EndReloadAssembly (413ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (33ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008685 seconds.
+Registered in 0.003013 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.442 seconds
+- Completed reload, in  1.008 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2443ms)
-		BeginReloadAssembly (305ms)
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1988ms)
-			LoadAssemblies (240ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (683ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (124ms)
-			SetupLoadedEditorAssemblies (652ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (299ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (437ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 107.8 MB.
 System memory in use after: 107.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2464.
-Total: 4.505000 ms (FindLiveObjects: 0.227600 ms CreateObjectMapping: 0.090900 ms MarkObjects: 4.013700 ms  DeleteObjects: 0.171500 ms)
+Total: 2.815500 ms (FindLiveObjects: 0.176200 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.476600 ms  DeleteObjects: 0.099500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,105 +131,249 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Test level.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test level.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56c17a14d21008c97b7724cf608f9b6') in 0.019666 seconds 
-  Import took 0.024105 seconds .
+  path: Assets/Prefab/Import/Bed.fbx
+  artifactKey: Guid(5103f63e569f8944bb433db040f76808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Bed.fbx using Guid(5103f63e569f8944bb433db040f76808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb65108b9caea6dc31cdea26729a97e9') in 0.140451 seconds 
+  Import took 0.143404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 133.435252 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6afb383555531ff8ca7881ffdc3c119') in 0.004992 seconds 
-  Import took 0.017293 seconds .
+  Time since last request: 0.000318 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat
+  artifactKey: Guid(33230baef4dda4cf4bd25fcb15d0d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat using Guid(33230baef4dda4cf4bd25fcb15d0d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806777a3638ac15817275054f63050ee') in 0.019242 seconds 
+  Import took 0.022053 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 422.409149 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(d9c46f79fa27c754abd081371f99920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296dc18ac1470b03b88b48548fb2af21') in 0.007403 seconds 
-  Import took 0.014119 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat
+  artifactKey: Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat using Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f90c3be3f9b86f1fa904fff11a4b63') in 0.015791 seconds 
+  Import took 0.022809 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.496848 seconds.
-  path: Assets/Scenes/Level1 1.unity
-  artifactKey: Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1 1.unity using Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0adb7f7e745ad724a288e9f118645ea') in 0.004744 seconds 
-  Import took 0.010797 seconds .
+  Time since last request: 0.000539 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeTrunk.mat
+  artifactKey: Guid(52d55542834f2465eb9aed460fd370de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeTrunk.mat using Guid(52d55542834f2465eb9aed460fd370de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d451930c1b86c1060c899b11666db0d') in 0.018857 seconds 
+  Import took 0.022648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.852395 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(93e31f6897f570f4891327f3da1240a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe112c3645718772b63a0663bc836293') in 0.006449 seconds 
-  Import took 0.015185 seconds .
+  Time since last request: 0.000292 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat
+  artifactKey: Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat using Guid(656058fe318eb48558d21d66d1a79a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1527d63079eff24390775adf4c596fb') in 0.104457 seconds 
+  Import took 0.110177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.957377 seconds.
-  path: Assets/Scenes/Level1 1.unity
-  artifactKey: Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1 1.unity using Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39388caf3ed3a859b477ec19a2e27e5') in 0.004368 seconds 
-  Import took 0.014432 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat
+  artifactKey: Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat using Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3be63252af87d302cc860833cf414e5') in 0.011706 seconds 
+  Import took 0.017390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.526640 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(a0ad537d7933c9846892f9dd84082499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95583b93f44574166979fe3f944e35f5') in 0.005388 seconds 
-  Import took 0.011710 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefab/Import/Antique Standing Mirror.fbx
+  artifactKey: Guid(1b527ac62726bf342a6a7e38773f3903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Antique Standing Mirror.fbx using Guid(1b527ac62726bf342a6a7e38773f3903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4392249b51106f63a4d3ea26e3c63a9') in 0.035285 seconds 
+  Import took 0.039287 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.907737 seconds.
-  path: Assets/Scenes/Level1 1.unity
-  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1 1.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a91acf9deb81af70fe2dd555cd01df') in 0.005436 seconds 
-  Import took 0.012835 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefab/Import/Horror Scene Bed.fbx
+  artifactKey: Guid(14afb1f131c5f5d4993e9bd4bda2d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Horror Scene Bed.fbx using Guid(14afb1f131c5f5d4993e9bd4bda2d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d487b348d7e5c2003c88e218524c26e') in 0.052107 seconds 
+  Import took 0.061925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.916726 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa31a0555c863a79cb12dc7f39d2651') in 0.009452 seconds 
-  Import took 0.020939 seconds .
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefab/Import/Couch.fbx
+  artifactKey: Guid(8eb81e4fc191d1d498f4181f93548903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Couch.fbx using Guid(8eb81e4fc191d1d498f4181f93548903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40db7e274c608952f3aacbdd4d306c8') in 0.060218 seconds 
+  Import took 0.064235 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.578090 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6803c8b2fa468ea7e8b30b964726b86') in 0.004644 seconds 
-  Import took 0.010560 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat
+  artifactKey: Guid(2f31f4440de60444b8dd94d4d64b3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat using Guid(2f31f4440de60444b8dd94d4d64b3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3057bc020d51d8fa3c612a1f9635d25') in 0.017155 seconds 
+  Import took 0.022921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.236527 seconds.
-  path: Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity
-  artifactKey: Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ATestLevelToTryToMakeTheLevelWithJustTheInnerFaces.unity using Guid(6f6b9bab12a47044b936f604d6ad0d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da95a712ccc5c1170c1c105295245ef') in 0.005477 seconds 
-  Import took 0.012957 seconds .
+  Time since last request: 0.000478 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat
+  artifactKey: Guid(aa78c8d403a8547fe86d1f74239e6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.mat using Guid(aa78c8d403a8547fe86d1f74239e6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f87901a27b4b6add06fc78662dfab0b') in 0.092067 seconds 
+  Import took 0.098799 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.828281 seconds.
-  path: Assets/Scenes/Level1 1.unity
-  artifactKey: Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1 1.unity using Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa940208f2be3776e63f104d2a30a93') in 0.003864 seconds 
-  Import took 0.010260 seconds .
+  Time since last request: 0.000206 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat
+  artifactKey: Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat using Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4d9def53a8dda29eaf679294d00cd8') in 0.011251 seconds 
+  Import took 0.015133 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.290424 seconds.
-  path: Assets/Scenes/Level1 copy.unity
-  artifactKey: Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1 copy.unity using Guid(e7075b40d5ddc534190b6bbb226335ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a73d3a1d6071aa1804f67dca5427bb') in 0.006300 seconds 
-  Import took 0.012804 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_SphereSkyReflect.mat
+  artifactKey: Guid(6b37186f17556447eb6746e517892110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_SphereSkyReflect.mat using Guid(6b37186f17556447eb6746e517892110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7de8c166aa9c735d39c5d63a7d42c6') in 0.029911 seconds 
+  Import took 0.037036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low Equirect.mat
+  artifactKey: Guid(54fe2f000ad8f424fb63cc3ea0ae2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low Equirect.mat using Guid(54fe2f000ad8f424fb63cc3ea0ae2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f935c8ba5c92874fd722583a9f8438d9') in 0.141603 seconds 
+  Import took 0.150341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat
+  artifactKey: Guid(010dd68491d1d4a1692a6d2272e5cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat using Guid(010dd68491d1d4a1692a6d2272e5cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f5f4ed8e4655818150c5c3594275cc') in 0.015138 seconds 
+  Import took 0.021960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000940 seconds.
+  path: Assets/Prefab/Import/Pill.fbx
+  artifactKey: Guid(d07b1afb1f13a9a4eb554db459bcdfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Pill.fbx using Guid(d07b1afb1f13a9a4eb554db459bcdfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5bcc89f7736bedf16ef77e658b92d4') in 0.044905 seconds 
+  Import took 0.050839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.mat
+  artifactKey: Guid(f2b5f3f20933f434e850db1b710542fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.mat using Guid(f2b5f3f20933f434e850db1b710542fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda6cfda11131f3b30b4dedfe0e26718') in 0.092123 seconds 
+  Import took 0.097600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Materials/Base Walls.mat
+  artifactKey: Guid(447c2d95b6b85bf4b97f2b07c940931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base Walls.mat using Guid(447c2d95b6b85bf4b97f2b07c940931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc232686e7429c85375d4075763abcfc') in 0.023143 seconds 
+  Import took 0.027468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefab/Import/House Building/WashRoom Completed.fbx
+  artifactKey: Guid(174d776f39b27fc4391d2d89e2efc843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/House Building/WashRoom Completed.fbx using Guid(174d776f39b27fc4391d2d89e2efc843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebecfa9e52c1c42a0fd2400b8ad32fb') in 0.639247 seconds 
+  Import took 0.646932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat
+  artifactKey: Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat using Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaafe1669c93e7c74e48e1126ae05ed') in 0.009902 seconds 
+  Import took 0.012998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat
+  artifactKey: Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat using Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed67e5ec503a9dfc0b118ac8bffdd52') in 0.039579 seconds 
+  Import took 0.043813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefab/Import/Babycot.fbx
+  artifactKey: Guid(890ad2309976d6b4397a812cc5f35e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Babycot.fbx using Guid(890ad2309976d6b4397a812cc5f35e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787c396d747edca28b13afb6840e05f5') in 0.161710 seconds 
+  Import took 0.165872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat
+  artifactKey: Guid(bfe0cbb8b308b4a40a8f309f516eede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat using Guid(bfe0cbb8b308b4a40a8f309f516eede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3239dbd6ae9bc273a0844dd8e3e65') in 0.015953 seconds 
+  Import took 0.018979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Prefab/Import/tools_3_low.fbx
+  artifactKey: Guid(1c1d74063a8176f4091c7117255e5a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/tools_3_low.fbx using Guid(1c1d74063a8176f4091c7117255e5a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138e582ffc62da9a6144dfc96c7d2a87') in 0.083642 seconds 
+  Import took 0.087101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat
+  artifactKey: Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat using Guid(13f6e5eed33d84c76979f1ec06b5e48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb73f58085ff64268158c80d0cacbce1') in 0.084397 seconds 
+  Import took 0.089845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Prefab/Import/Kitchenknife.fbx
+  artifactKey: Guid(1ea619bdb8cce4d428717aa206a6f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Kitchenknife.fbx using Guid(1ea619bdb8cce4d428717aa206a6f45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67e633bdd7eda47f378be34f11fa32f') in 0.059945 seconds 
+  Import took 0.063558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Gold.mat
+  artifactKey: Guid(01a7bc73373864398befa5c72ebb094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Gold.mat using Guid(01a7bc73373864398befa5c72ebb094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5259925fe5e32fa75819288565d6fb63') in 0.011327 seconds 
+  Import took 0.015076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Materials/Base Floor.mat
+  artifactKey: Guid(a078fd7214c7f644193f1674f0cc80a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Base Floor.mat using Guid(a078fd7214c7f644193f1674f0cc80a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8f52471720248188ee5ec307c99a6a') in 0.024538 seconds 
+  Import took 0.032693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefab/Import/Books.fbx
+  artifactKey: Guid(c2ce3bf4f0afde543aac098f7e576aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Import/Books.fbx using Guid(c2ce3bf4f0afde543aac098f7e576aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4c48fe4962fea0a66a1548185a19ea') in 0.207988 seconds 
+  Import took 0.212415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.mat
+  artifactKey: Guid(3a6db933fef1d4c759bf21220420505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky Equirect.mat using Guid(3a6db933fef1d4c759bf21220420505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06457ec5a60aec1473167f0b413dd29d') in 0.080117 seconds 
+  Import took 0.085137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat
+  artifactKey: Guid(4ecd3f24879b0402c92f21617e3db5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat using Guid(4ecd3f24879b0402c92f21617e3db5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb3a0c1f848f4d29eb31af78ea7843c') in 0.014881 seconds 
+  Import took 0.018992 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
