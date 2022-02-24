@@ -43,20 +43,18 @@ public class Door : MonoBehaviour
             
             if (isRotatingDoor)
             {
-                float dot = Vector3.Dot(Forward, (playerPosition - transform.position).normalized);
-                Debug.Log($"Dot: { dot.ToString("N3")}");
-                AnimationCoroutine = StartCoroutine(DoRotationOpen(dot));
+                AnimationCoroutine = StartCoroutine(DoRotationOpen());
             }
         }
     }
 
 
-    private IEnumerator DoRotationOpen(float ForwardAmount)
+    private IEnumerator DoRotationOpen()
     {
         Quaternion startRotation = transform.rotation;
         Quaternion endRotation;
 
-        if(ForwardAmount >= forwardDirection)
+        if(transform.InverseTransformPoint(player.transform.position).z >= 0)
         {
             // Open to the player
             endRotation = Quaternion.Euler(new Vector3(0, startRotation.eulerAngles.y - RotationAmount, 0));
