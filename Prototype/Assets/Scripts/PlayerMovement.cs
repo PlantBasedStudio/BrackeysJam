@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
     public GameObject character;
     public float speed = 10f;
-    private bool PlayMode = false;
+    //private bool PlayMode = false;
 
     public AudioSource PlayerSource;
     public AudioClip StepSound;
@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-
         PlayerSource.clip = StepSound;
         
     }

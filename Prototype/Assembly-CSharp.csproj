@@ -60,7 +60,7 @@
     <Compile Include="Assets\triggerDestroy.cs" />
     <Compile Include="Assets\TriggerUnlockDoor.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
-    <Compile Include="Assets\NewPlayerOpenDoors.cs" />
+    <Compile Include="Assets\Scripts\NewPlayerOpenDoors.cs" />
     <Compile Include="Assets\Teleport.cs" />
     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\DangerScriptTrigger.cs" />
