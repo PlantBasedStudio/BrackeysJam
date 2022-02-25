@@ -10,11 +10,10 @@ public class ScriptTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-        if (col.name == "Character")
+        if (col.tag == "Player")
         {
             breakableWall.SetActive(false);
             invisibleDoor.SetActive(true);
-            
 
             Destroy(this, 3);
         }
