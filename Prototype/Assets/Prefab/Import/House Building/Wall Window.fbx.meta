@@ -3,7 +3,17 @@ guid: 055b3f2a9ea0ae94e9b843bb09630b0e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door and windows.005
+    second: {fileID: 2100000, guid: 38f5cbafbc59a634cb958d34e5f084fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Trim.012
+    second: {fileID: 2100000, guid: 175090a30efe98a4fb096659f674dbf1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: 8eb81e4fc191d1d498f4181f93548903
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Couch.001
+    second: {fileID: 2100000, guid: 9b4d57833aeb38842b3f642a038ea78d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanket.001
+    second: {fileID: 2100000, guid: ab558b13c8bc7ff4da7382b52b92d021, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

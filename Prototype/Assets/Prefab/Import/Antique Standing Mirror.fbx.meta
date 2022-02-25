@@ -3,7 +3,12 @@ guid: 1b527ac62726bf342a6a7e38773f3903
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: antique_standing_mirror_Mat
+    second: {fileID: 2100000, guid: 57ac460c38ae66f49a2fc827ad3e81b8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
