@@ -37,7 +37,7 @@ public class NewPlayerOpenDoors : MonoBehaviour
 
     private void Update()
     {
-
+        
         if (Physics.Raycast(mainCamera.position, mainCamera.forward, out RaycastHit hit, maxUseDistance, useLayers) && (hit.collider.TryGetComponent<Door>(out Door door)))
         {
 

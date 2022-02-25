@@ -12,10 +12,10 @@ public class Door : MonoBehaviour
     private float speed = 1f;
 
     private float RotationAmount = 90f;
-    private float forwardDirection = 0f;
+    //private float forwardDirection = 0f;
 
     private Vector3 StartRotation;
-    private Vector3 Forward;
+    //private Vector3 Forward;
 
     private Coroutine AnimationCoroutine;
 
@@ -27,8 +27,8 @@ public class Door : MonoBehaviour
     private void Awake()
     {
         StartRotation = transform.rotation.eulerAngles;
-        Forward = transform.right;
-        player = FindObjectOfType<PlayerOpenDoors>().gameObject;
+        //Forward = transform.right;
+        player = FindObjectOfType<NewPlayerOpenDoors>().gameObject;
     }
 
     public void Open()
