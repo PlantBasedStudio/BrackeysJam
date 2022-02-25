@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637813505931997231
+      ticks: 637813550750125234
     m_Hash: 3670193596
   m_LockFileStatus:
     m_FilePath: C:/Users/helmu/HelSoloCompu/GitHub/Prototype/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637813505932000301
+      ticks: 637813550750136467
     m_Hash: 2649248919
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
