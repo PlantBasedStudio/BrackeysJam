@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TriggerSound : MonoBehaviour
 {
+    public GameObject SubtilesObj;
+    public Text subtiles;
+    public string subtilesText;
 
     public string sound;
     private void OnTriggerEnter(Collider col)
@@ -12,9 +16,21 @@ public class TriggerSound : MonoBehaviour
         {
 
             FindObjectOfType<AudioManager>().Play(sound);
-            Destroy(this, 0.1f);
+            StartCoroutine(SubtilesModeOn(subtilesText));
+           
            
         }
+    }
+
+    public IEnumerator SubtilesModeOn(string subtilesText)
+    {
+        subtiles.text = subtilesText;
+        SubtilesObj.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        SubtilesObj.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+
     }
 }
 

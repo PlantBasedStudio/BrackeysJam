@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerTakePills : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class PlayerTakePills : MonoBehaviour
     public GameObject Cam;
     public float timeToReachTarget = 45;
     public float t = 0f;
+    public TriggerSound solo;
     public void OnUse()
     {
         if (Physics.Raycast(Camera.position, Camera.forward, out RaycastHit hit, MaxUseDistance, UseLayers))
@@ -32,6 +34,13 @@ public class PlayerTakePills : MonoBehaviour
             {
                 pillsCount++;
                 pills.Take();
+                if(pillsCount >= 2)
+                {
+                    FindObjectOfType<AudioManager>().Play("OhMy");
+                    StartCoroutine(Wait(2f));
+
+
+                }
 
             }
         }
@@ -65,5 +74,11 @@ public class PlayerTakePills : MonoBehaviour
             Cam.GetComponent<Camera>().fieldOfView = Mathf.Lerp(Cam.GetComponent<Camera>().fieldOfView, 75, t);
         }
 
+    }
+
+    IEnumerator Wait(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        StartCoroutine(solo.SubtilesModeOn("Oh my head"));
     }
 }
