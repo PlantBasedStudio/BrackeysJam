@@ -8,6 +8,7 @@ public class LookAtPlayer : MonoBehaviour
     public Transform target;
     public GameObject Character;
     public Camera cam;
+    public GameObject pill;
 
     private static int iteration = 0;
     void Start()
@@ -45,7 +46,7 @@ public class LookAtPlayer : MonoBehaviour
         FindObjectOfType<AudioManager>().Stop("FirstSong");
         FindObjectOfType<AudioManager>().Play("SecondSong");
         yield return new WaitForSeconds(0.1f);
-       
+        pill.SetActive(true);
         Teleport.canSpawn = false;
         Destroy(gameObject, 0.5f);
         yield break;
