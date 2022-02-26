@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField]
+    [HideInInspector]
     public bool isOpen = false;
-    [SerializeField]
+    [HideInInspector]
     private bool isRotatingDoor = true;
     [SerializeField]
     private float speed = 1f;
