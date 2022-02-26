@@ -44,6 +44,9 @@ public class Door : MonoBehaviour
             if (isRotatingDoor)
             {
                 AnimationCoroutine = StartCoroutine(DoRotationOpen());
+                
+                
+                
             }
         }
     }
@@ -73,6 +76,13 @@ public class Door : MonoBehaviour
             yield return null;
             time += Time.deltaTime * speed;
         }
+        yield return new WaitForSeconds(5f);
+        if(isOpen)
+        {
+            Close();
+            FindObjectOfType<AudioManager>().Play("Close");
+        }
+        
     }
 
 

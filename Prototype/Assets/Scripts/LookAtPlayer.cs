@@ -9,6 +9,10 @@ public class LookAtPlayer : MonoBehaviour
     public GameObject Character;
     public Camera cam;
 
+    public GameObject blood;
+    public GameObject pill;
+
+
     private static int iteration = 0;
     void Start()
     {
@@ -54,6 +58,8 @@ public class LookAtPlayer : MonoBehaviour
     public void PlayScare()
     {
         FindObjectOfType<AudioManager>().Play("Damaged");
+        pill.SetActive(true);
+        blood.SetActive(false);
         return;
     }
 

@@ -8,6 +8,8 @@ public class CameraMovement : MonoBehaviour
     public float mouseSensitivity = 100f;
 
 
+
+    public static bool canMove = true;
     // reference to our player
     public Transform playerBody;
 
@@ -24,6 +26,10 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(canMove == true)
+        {
+
+      
         // Mouse movement axis float
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
@@ -33,7 +39,7 @@ public class CameraMovement : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
-
+        }
 
     }
 }
