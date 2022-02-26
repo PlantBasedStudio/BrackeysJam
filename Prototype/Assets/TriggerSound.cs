@@ -5,12 +5,15 @@ using UnityEngine.UI;
 
 public class TriggerSound : MonoBehaviour
 {
-    
+
     public string sound;
+    
 
     public string sub;
     public GameObject subtilesObj;
     public Text subtilestext;
+
+
     private void OnTriggerEnter(Collider col)
     {
         if (col.name == "Character")
@@ -18,7 +21,8 @@ public class TriggerSound : MonoBehaviour
 
             FindObjectOfType<AudioManager>().Play(sound);
             StartCoroutine(SubtilesModeOn(sub));
-           
+
+
         }
     }
 
@@ -32,4 +36,3 @@ public class TriggerSound : MonoBehaviour
         Destroy(gameObject);
     }
 }
-

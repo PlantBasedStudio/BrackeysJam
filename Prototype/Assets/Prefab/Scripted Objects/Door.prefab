@@ -217,7 +217,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6584582865313096773}
-  - component: {fileID: 1188549176153390579}
   - component: {fileID: 2603600965964888775}
   m_Layer: 6
   m_Name: PivotPoint
@@ -241,23 +240,6 @@ Transform:
   m_Father: {fileID: 3043065988723827974}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1188549176153390579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7067759255072943818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edcbc663be85d5347a1f2ceddee2a5f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isOpen: 0
-  isRotatingDoor: 1
-  speed: 1
-  IsUnlocked: 0
-  player: {fileID: 3137588685319041982, guid: 4a7598d601f4496468d0c90fd708450d, type: 3}
 --- !u!65 &2603600965964888775
 BoxCollider:
   m_ObjectHideFlags: 0

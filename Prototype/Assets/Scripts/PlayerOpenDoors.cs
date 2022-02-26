@@ -20,7 +20,6 @@ public class PlayerOpenDoors : MonoBehaviour
     private LayerMask UseLayers;
 
     private bool ShowTheLockedWord = false;
-
     
     public void OnUse()
     {

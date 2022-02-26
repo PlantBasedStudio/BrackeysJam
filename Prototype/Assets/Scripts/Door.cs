@@ -18,7 +18,6 @@ public class Door : MonoBehaviour
     //private Vector3 Forward;
 
     private Coroutine AnimationCoroutine;
-
    [SerializeField]
     public bool IsUnlocked;
 

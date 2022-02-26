@@ -90,6 +90,7 @@ public class NewPlayerOpenDoors : MonoBehaviour
 
     }
 
+
     public void OnUse(Door door)
     {
 
@@ -117,7 +118,6 @@ public class NewPlayerOpenDoors : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Lock");
         }
          */ // Legacy
-
 
         if (!door.IsUnlocked) // If locked
         {

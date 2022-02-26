@@ -3,12 +3,7 @@ guid: f84dd47875789fc468fa370e232ff406
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rojo
-    second: {fileID: -8011970937833959307, guid: 1c28e7cdac9dc164bac825cc06951158, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

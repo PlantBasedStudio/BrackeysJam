@@ -18,7 +18,6 @@ public class ScriptTrigger : MonoBehaviour
             Destroy(this, 3);
         }
     }
-    
         
     
 }
