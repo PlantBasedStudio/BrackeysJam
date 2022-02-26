@@ -65,15 +65,14 @@
     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\DangerScriptTrigger.cs" />
     <Compile Include="Assets\PlayerTakeKey.cs" />
-    <Compile Include="Assets\PlayerTakePills.cs" />
     <Compile Include="Assets\Scripts\PlayerOpenDoors.cs" />
-    <Compile Include="Assets\Pills.cs" />
     <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Key.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\TriggerOnlySound.cs" />
+    <Compile Include="Assets\Pills.cs" />
+    <Compile Include="Assets\PlayerTakePills.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

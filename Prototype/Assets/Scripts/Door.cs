@@ -31,8 +31,6 @@ public class Door : MonoBehaviour
         player = FindObjectOfType<NewPlayerOpenDoors>().gameObject;
     }
 
-   
-
     public void Open()
     {
         Vector3 playerPosition = player.transform.position;
@@ -46,9 +44,7 @@ public class Door : MonoBehaviour
             if (isRotatingDoor)
             {
                 AnimationCoroutine = StartCoroutine(DoRotationOpen());
-                StartCoroutine(AutoClose());
             }
-           
         }
     }
 
@@ -93,8 +89,6 @@ public class Door : MonoBehaviour
             {
                 AnimationCoroutine = StartCoroutine(DoRotationClose());
             }
-
-           
         }
     }
 
@@ -112,19 +106,5 @@ public class Door : MonoBehaviour
             yield return null;
             time += Time.deltaTime * speed;
         }
-    }
-
-    
-
-    public IEnumerator AutoClose()
-    {
-        yield return new WaitForSeconds(5f);
-        if (isOpen)
-        {
-            Close();
-            FindObjectOfType<AudioManager>().Play("Close");
-        }
-       
-        
     }
 }
