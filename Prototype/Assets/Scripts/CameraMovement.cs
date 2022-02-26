@@ -20,7 +20,7 @@ public class CameraMovement : MonoBehaviour
         // Hide the cursor (press exit to go show)
         Cursor.lockState = CursorLockMode.Locked;
         playerBody = transform.parent;
-
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

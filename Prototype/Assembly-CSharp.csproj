@@ -66,12 +66,14 @@
     <Compile Include="Assets\Pills.cs" />
     <Compile Include="Assets\PlayerTakeLight.cs" />
     <Compile Include="Assets\Teleport.cs" />
+    <Compile Include="Assets\PlayerSeeMonster4.cs" />
     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\DangerScriptTrigger.cs" />
     <Compile Include="Assets\PlayerTakeKey.cs" />
     <Compile Include="Assets\PossessedWalking.cs" />
     <Compile Include="Assets\Scripts\PlayerOpenDoors.cs" />
     <Compile Include="Assets\Scripts\ScriptTrigger.cs" />
+    <Compile Include="Assets\Monster4.cs" />
     <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
@@ -80,8 +82,8 @@
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TriggerBabyBedRoom.cs" />
     <Compile Include="Assets\PauseMenu.cs" />
-    <Compile Include="Assets\PlayerSeeMonster4.cs" />
-    <Compile Include="Assets\Monster4.cs" />
+    <Compile Include="Assets\MenuManager.cs" />
+    <Compile Include="Assets\FinalMonster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

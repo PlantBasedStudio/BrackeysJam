@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7459173146552731791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7459173146552731789}
+  - component: {fileID: 7459173146552731788}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7459173146552731789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459173146552731791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7459173146552731788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7459173146552731791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a78252815294e46b227cbf034ecf8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 248da06d38355bd4e8a0ad8965f7d1d7, type: 3}
+    name: Steps
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 5ae37de22bf5ee84aa7aabe44683c679, type: 3}
+    name: Open
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 482340f7f383ecd429f30bd2079c0dc4, type: 3}
+    name: Close
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 8dceeee1669ff4647a05ae1d2c0c17a8, type: 3}
+    name: 
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 720d635fd5fce8549b2a6038d22fe861, type: 3}
+    name: Lock
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: fc10f90bb5254d74e9b0cab447f926b8, type: 3}
+    name: Steps
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 5b233bbf357a20d43aee79771e2b996e, type: 3}
+    name: boum
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: d556c0523e4c18f4d9f750b7116459e3, type: 3}
+    name: Key
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: d2736d7c54a59f44bb2089d96510b2e2, type: 3}
+    name: Unlock
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 8708b60dc85682f43838417974e716c5, type: 3}
+    name: FirstSong
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 11084a0aad01515459fda7e12a14e08b, type: 3}
+    name: MenuSong
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 2604366cca7877f4da805c569cbb0c18, type: 3}
+    name: SecondSong
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 7c01c4693d195dd46ad3528a18f11380, type: 3}
+    name: uh
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 778305082fac1464e96b5f4363e57a1b, type: 3}
+    name: charles
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 1a20901f3c49860428a948309d203575, type: 3}
+    name: aana2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: e6fae5802cd8afc4b837eca4bf60497c, type: 3}
+    name: scareme
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 9f0e99e1f950c2e4fa72ffbb85c41b10, type: 3}
+    name: aana1
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: ffec1771c0680e74f8d8f2dd9f244e95, type: 3}
+    name: Damaged
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: a9f8b3411489a8543a4a94c2a0b7cd09, type: 3}
+    name: WhatThe
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 2820138d0dd723d4b9afbab751006392, type: 3}
+    name: Pills
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 0cf30d8a2374b1b49aac901c08f58e54, type: 3}
+    name: LoudKnock
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: bf5327b0971d8004b8624dc002037761, type: 3}
+    name: LoudKnock2
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: de0d21d720ffbef4c8225b280a9303ff, type: 3}
+    name: BabyRoomSong
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 966cdc75184c2dd48b93f0d6637ab9ac, type: 3}
+    name: NO
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 68f21dfe151a7b446a88b8d4862364af, type: 3}
+    name: AANAC
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 1e09ac05a60243041858419746c64430, type: 3}
+    name: Light
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0
+  - clip: {fileID: 8300000, guid: 1e09ac05a60243041858419746c64430, type: 3}
+    name: Ohmygod
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    isPlaying: 0

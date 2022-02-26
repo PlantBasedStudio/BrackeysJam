@@ -49,7 +49,8 @@ public class TriggerBabyBedRoom : MonoBehaviour
 
     public IEnumerator BabyRoomEvent()
     {
-        move.enabled = false;
+        PlayerMovement.isok = false;
+        
         CameraMovement.canMove = false;
         Door.GetComponent<Door>().Open();
         Door.GetComponent<Door>().IsUnlocked = true;
@@ -60,8 +61,9 @@ public class TriggerBabyBedRoom : MonoBehaviour
         yield return new WaitForSeconds(4f);
         Door.GetComponent<Door>().Close();
         yield return new WaitForSeconds(2f);
-        move.enabled = true;
+        
         CameraMovement.canMove = true;
+        PlayerMovement.isok = true;
         Monster3.SetActive(false);
         yield return new WaitForSeconds(0.2f);
         Destroy(gameObject);

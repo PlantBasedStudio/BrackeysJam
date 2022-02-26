@@ -22,6 +22,8 @@ public class Door : MonoBehaviour
    [SerializeField]
     public bool IsUnlocked;
 
+    public bool isInvicible = true;
+
     private GameObject player;
 
     private void Awake()
@@ -77,7 +79,7 @@ public class Door : MonoBehaviour
             time += Time.deltaTime * speed;
         }
         yield return new WaitForSeconds(5f);
-        if(isOpen)
+        if(isOpen && isInvicible)
         {
             Close();
             FindObjectOfType<AudioManager>().Play("Close");

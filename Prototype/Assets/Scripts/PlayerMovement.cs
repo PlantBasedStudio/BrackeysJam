@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public AudioSource PlayerSource;
     public AudioClip StepSound;
 
-
+    public static bool isok = true;
     public float gravity = -18f;
 
     Vector3 velocity;
@@ -28,19 +28,24 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+
+        if (isok)
+        {
+            float x = Input.GetAxis("Horizontal");
+            float z = Input.GetAxis("Vertical");
 
 
-        Vector3 move = transform.right * x + transform.forward * z;
+            Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+            controller.Move(move * speed * Time.deltaTime);
+
+        }
 
 
 
         if (Input.GetButton("Vertical") || Input.GetButton("Horizontal"))
         {
-            if (!PlayerSource.isPlaying)
+            if (!PlayerSource.isPlaying && isok)
             {
                PlayerSource.Play();
             }
