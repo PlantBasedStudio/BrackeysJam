@@ -18,7 +18,7 @@ public class TriggerSound : MonoBehaviour
     {
         if (col.name == "Character")
         {
-
+            GetComponent<BoxCollider>().enabled = false; //To prevent it from repeating
             FindObjectOfType<AudioManager>().Play(sound);
             StartCoroutine(SubtilesModeOn(sub));
 
